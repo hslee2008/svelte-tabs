@@ -43,6 +43,7 @@
 	}
 </style>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <li
   bind:this={tabEl}
   role="tab"

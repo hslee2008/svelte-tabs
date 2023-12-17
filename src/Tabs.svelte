@@ -100,6 +100,7 @@
   }
 </script>
 
-<div class="svelte-tabs" on:keydown={handleKeyDown}>
+<!-- svelte-ignore a11y-interactive-supports-focus -->
+<div class="svelte-tabs" role="tab" on:keydown={handleKeyDown}>
   <slot></slot>
 </div>
